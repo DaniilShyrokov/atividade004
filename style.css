@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #403D39;
+    --cor1: #EB5E28;
+    --cor2: #CCC5B9;
+    --cor3: #FFFCF2;
+    --cor4: #252422;
+    --cor5: #000000;
+    --cor6: #690500;
+    --cor7: #210F04;
+    --cor8: #452103; 
+    --cor9: #934B00;
+    --cor10: #BB6B00;
+    --cor11: #706563;
+    --default-font: Arial, Sans-Serif;
+}
+
+body {
+    font-family: var(--default-font);
+    background-color: var(--cor0);
+    color: var(--cor2);
+}
+
+#logo {
+    width: 170px;
+    top: 10px;
+    right: 15px;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: var(--cor1);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border: 2px solid #555555;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #555555;
+    text-align: center;
+    width: 100px;
+}
+
+th {
+    height: 30px;
+}
+
+.fis {
+    background-color: var(--cor4);
+    color: var(--cor9);
+}
+
+.port {
+    background-color: var(--cor6);
+}
+
+.mat {
+    background-color: var(--cor11);
+    color: var(--cor7);
+}
+
+.ef {
+    background-color: var(--cor8);
+    color: var(--cor3);
+}
+
+.ainf {
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+td > span {
+    display: block;
+    right: 10px;
+    font-size: 0.7em;
+    text-align: right;
+    margin-right: 10px;
+}
+
